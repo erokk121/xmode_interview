@@ -1,0 +1,5 @@
+SELECT DISTINCT deviceModel, COUNT(user_id)
+FROM app.data
+WHERE created_at
+BETWEEN "2018-01-01 00:00:00.000000"
+AND "2018-01-08 00:00:00.000000"
